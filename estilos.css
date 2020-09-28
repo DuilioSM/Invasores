@@ -1,0 +1,38 @@
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Source Code Pro', monospace;
+    background: url(imagenes/maquinitas-background.jpg) no-repeat;
+    background-size: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+    
+}
+p{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#miCanvas {
+    border: groove 2px red;
+    background:url(imagenes/background.jpg);
+    /* box-shadow: 10px 10px 10px #888888; */
+}
